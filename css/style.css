@@ -1,0 +1,24 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:hover,a:active{outline:0;}
+sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{height:auto;border:0;-ms-interpolation-mode:bicubic;vertical-align:middle;}
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle;}
+button,input{*overflow:visible;line-height:normal;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+body{background:url('../img/bg.gif');font-family:helvetica,sans-serif;padding:20px 10% 20px;}
+.lined_paper{background:url('../img/red_lines.gif'),url('../img/lined_paper.gif');background-repeat:repeat-y,repeat;background-position:20px 0, 0 0;}
+.lined_paper_wrap{position:relative;}.lined_paper_wrap hgroup{background-color:#111111;background-image:-moz-linear-gradient(top, #494949, #111111);background-image:-ms-linear-gradient(top, #494949, #111111);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#494949), to(#111111));background-image:-webkit-linear-gradient(top, #494949, #111111);background-image:-o-linear-gradient(top, #494949, #111111);background-image:linear-gradient(top, #494949, #111111);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#494949', endColorstr='#111111', GradientType=0);height:37px;color:#DDD;padding:0 20px;border:1px solid #111;position:relative;z-index:1;-webkit-box-shadow:0 0 3px rgba(0, 0, 0, 0.8);-moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.8);box-shadow:0 0 3px rgba(0, 0, 0, 0.8);-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;}.lined_paper_wrap hgroup h2{font-size:18px;text-align:center;line-height:10px;font-weight:normal;text-shadow:0 -1px 0px rgba(0, 0, 0, 0.75);letter-spacing:1px;}
+.lined_paper_wrap p{line-height:25px;font-size:14px;padding:0 20px 24px 16px;color:#555;margin:0;}
+.lined_paper_wrap::before{content:'';position:absolute;width:96%;height:60px;z-index:-1;bottom:-60px;left:2.1%;background-color:rgba(0, 0, 0, 0);background-image:-moz-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));background-image:-ms-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));background-image:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0)));background-image:-webkit-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));background-image:-o-linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));background-image:linear-gradient(top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(0, 0, 0, 0.1)', endColorstr='rgba(0, 0, 0, 0)', GradientType=0);}
+.lined_paper_wrap::after{content:'';position:absolute;width:100%;height:98%;z-index:-1;top:0;left:0;-webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.2);-moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.2);box-shadow:0 0 30px rgba(0, 0, 0, 0.2);}
+.lined_paper_wrap .lined_paper{padding:30px 20px 20px;position:relative;border:1px solid #bbb;-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.1);box-shadow:0 0 4px rgba(0, 0, 0, 0.1);}.lined_paper_wrap .lined_paper::after{content:'';position:absolute;background:url('../img/lined_paper.gif');width:98%;height:10px;z-index:-1;bottom:-4px;left:1%;border:1px solid #bbb;-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.1);box-shadow:0 0 4px rgba(0, 0, 0, 0.1);}
+.lined_paper_wrap .lined_paper::before{content:'';position:absolute;background:url('../img/lined_paper.gif');width:96%;height:10px;z-index:-1;bottom:-8px;left:2%;border:1px solid #bbb;-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.05);box-shadow:0 0 4px rgba(0, 0, 0, 0.05);}
